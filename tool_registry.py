@@ -1,3 +1,4 @@
+# Tool registry system
 class ToolRegistry:
     def __init__(self):
         self.tools = {}
