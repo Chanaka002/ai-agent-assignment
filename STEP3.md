@@ -69,3 +69,8 @@ The AI Personal Assistant Agent can be run locally on a computer with Python ins
 
 ```bash
 pip install -r requirements.txt
+
+
+## 4. Data Conversion or Porting
+
+This system is not designed to carry out complicated data conversion nor data porting to external sources. But during request processing basic data transformation is used. The user's text input is analyzed and translated into structured commands that are passed to the AI agent and the tools. For instance, if anyone requests a calculator, it is treated as a maths problem, if anyone asks to translate, it is treated as a language problem, and the content of a text file is treated as text to be displayed for the user. The current version of the system doesn't require any database migration or external data transformation.
